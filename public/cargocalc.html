@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cargo Calculations</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<header>
+		
+	</header>
+	
+	<p>
+		<h2>Cargo</h2>
+	<!-- 	CARGO #1 -->
+		<div id="duffle" class="col-xs-12">
+		 <!--  <img src="/images/gallon-jug-water.jpg" class="responsive cargo-image"> -->
+		  <br><b>Duffle Bag  -   $50  -   20 lbs</b>
+		  <button type="button" class="btn btn-success" id="add-duffle">Add</button>
+		  <button type="button" class="btn btn-danger" id="remove-duffle">Remove</button>
+		</div>
+	<!-- 	CARGO #2 -->	
+		<div id="Suitcase" class="col-xs-12">
+		<!--   <img src="/images/gallon-jug-water.jpg" class="responsive cargo-image"> -->
+		  <br><b>Suitcase  -   $100  -   50 lbs</b>
+		  <button type="button" class="btn btn-success" id="add-suitcase">Add</button>
+		  <button type="button" class="btn btn-danger" id="remove-suitcase">Remove</button>
+		</div>
+	<!-- 	CARGO #3 -->		
+		<div id="Backpack" class="col-xs-12">
+		<!--   <img src="/images/gallon-jug-water.jpg" class="responsive cargo-image"> -->
+		  <br><b>Backpack  -   $100  -   40 lbs</b>
+		  <button type="button" class="btn btn-success" id="add-backpack">Add</button>
+		  <button type="button" class="btn btn-danger" id="remove-backpack">Remove</button>
+		</div>
+	<!-- 	CARGO #4 -->		
+		<div id="spareTire" class="col-xs-12">
+		<!--   <img src="/images/gallon-jug-water.jpg" class="responsive cargo-image"> -->
+		  <br><b>Spare Tire  -   $100  -   50 lbs</b>
+		  <button type="button" class="btn btn-success" id="add-spare">Add</button>
+		  <button type="button" class="btn btn-danger" id="remove-spare">Remove</button>
+		</div>		
+
+	<!-- TOTALS -->
+		<h4>TOTAL COST: <span id="total-cost"></span></h4>
+		<h4>TOTAL WEIGHT: <span id="total-weight"></span></h4>
+		<p id="cargo-status"></p>
+		<hr>
+		<button type="button" class="btn btn-danger" id="validate-button">VALIDATE CARGO</button>
+		<br><br>
+		<p id="validator-status"></p>
+		<br><br>
+
+	<!-- jQuery script / main.js script -->
+			<script
+			 src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<!-- bootstrap js -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			<!-- any custom js -->
+			<script src="main.js"></script>
+	</p>
+</body>
+</html>

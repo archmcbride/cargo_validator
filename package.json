@@ -1,0 +1,18 @@
+{
+  "name": "roadtrip",
+  "version": "1.0.0",
+  "description": "You're planning a roadtrip, and you want to build a simple express application to help you plan out the order that you'll be visiting different locations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "multer": "^1.3.0",
+    "request": "^2.81.0"
+  }
+}
